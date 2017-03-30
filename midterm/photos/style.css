@@ -1,0 +1,54 @@
+
+/**, *:before, *:after {
+	/*show this as a fix for two column layout*/
+  box-sizing: content-box;
+}
+
+
+body, div{
+ background-color: blanchedalmond;
+    font-family:'Josefin Sans', sans-serif;
+}
+
+
+#gallery {
+  width: 600px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+    padding: 25;
+  margin: 100px auto;
+    
+}
+
+
+
+#navigation ul il {
+  padding: 0;
+  margin: 0;
+  float: left;
+  clear: both;
+    padding: 25;
+}
+
+#navigation li a img {
+  display: block;
+  border: none;
+    width: 500 px;
+    height: 400px;
+    padding: 25;
+}
+
+#navigation li a img {
+  display: block;
+    padding: 25;
+}
+
+#full-picture {
+    display: block;
+  width: 300px;
+  height: 375px;
+  overflow: hidden;
+  float: left;
+    padding: 25;
+}

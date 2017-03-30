@@ -1,0 +1,35 @@
+
+*, *:before, *:after {
+	/*show this as a fix for two column layout*/
+  box-sizing: border-box;
+	margin-top: 0px;
+
+}
+
+body {
+	background-color:cyan;
+	font-family: Helvetica, sans-serif;
+	color:black;
+	padding: 100px;
+}
+
+a {
+	text-decoration: none;
+	color:black;
+	padding: 25px;
+    margin: 25px;
+
+}
+h1 {
+    padding: 25px;
+    color: deeppink;
+}
+
+
+p {
+			background-color: #c4b4b4;
+		 	width: 600px;
+		 	border: 10px solid deeppink;
+		 	padding: 15px;
+		 	margin: 15px;
+		}
