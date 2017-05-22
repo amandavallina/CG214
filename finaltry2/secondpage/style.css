@@ -1,0 +1,119 @@
+
+
+body {
+    background-color:#555e6d;
+}
+
+.absolute {
+    position:absolute;
+    color: black;
+    height: 200px;
+    width: 500px;
+    left: 50px;
+    top: 50px;
+}
+
+head {
+    font-family: 'Roboto', sans-serif;
+     padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    
+}
+
+h2{
+    color:dimgrey;
+}
+
+body {
+    background-color: #b3b8bf;
+    font-family: 'Roboto', sans-serif;
+     padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    letter-spacing: 3px;
+    text-indent: 50px;
+}
+
+p {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+#one{
+    position:relative;
+    display: inline-block;
+    top: 10px;
+    left: 20px;
+}
+
+#two{
+    position:absolute;
+    top: 750px;
+    left: 50px;
+}
+
+#three{
+    position:absolute;
+    top: 890px;
+    left: 650px;
+}
+
+#four{
+    position:absolute;
+    top: 485px;
+    left: 600px;
+}
+
+#five{
+    position:absolute;
+    top: 90px;
+    left: 420px;
+}
+
+#six{
+    position:absolute;
+    top:415px;
+    left: 130px;
+}
+
+div {
+    position: absolute;
+    padding: 20px;
+    margin-top: 10px;
+    height: 500px;
+}
+
+ 
+#bottom{
+     display: inline-block;
+    height: 10px;
+    position: relative;
+    top:70px;
+    left:9%
+    
+}
+
+h4{
+    color:black;
+    font-size: 50px;
+    position:absolute;
+    display: inline-block;
+    left:440px;
+    top: -30px;
+    
+}
+
+img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
